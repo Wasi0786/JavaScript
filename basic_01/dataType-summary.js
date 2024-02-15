@@ -34,4 +34,35 @@ console.log("hello world");
 
 // console.log(typeof bigNumber);
 
-console.log("array..." +  typeof array);
+// console.log("array..." +  typeof array);
+
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "Wasi Coding"
+
+let anotherName = myYoutubeName;
+anotherName = "ali Coding"
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+
+// **********************************
+ 
+let userOne = {
+    name: "Wasi",
+    age: 22
+}
+
+let userTwo = userOne
+userOne.age = 20
+
+console.log(userOne)
+console.log(userTwo);
