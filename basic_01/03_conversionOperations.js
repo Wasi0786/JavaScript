@@ -59,5 +59,7 @@ let str2 = " wasi"
 // prifix & postfix
 
 let gameCounter = 100
-gameCounter++;
+let y = gameCounter++
+// gameCounter++;
 console.log(gameCounter);
+console.log(y);

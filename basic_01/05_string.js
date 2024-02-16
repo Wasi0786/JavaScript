@@ -28,7 +28,7 @@ const gameName = new String('I am Wasi Ahmad')
 // console.log(gameName.valueOf())
 
 
-// console.log(gameName.at(1))
+// console.log(gameName.at())
 
 // console.log(gameName.concat(" heloo ", gameName))
 // console.log(gameName.endsWith("a"))
