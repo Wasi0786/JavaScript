@@ -26,5 +26,5 @@ map.set('Fr', "France")
 console.log(map);4
 
 for (const [key, value] of map) {
-    console.log(key, "and ", value);
+    // console.log(key, "and ", value);
 }
